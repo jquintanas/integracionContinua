@@ -21,7 +21,7 @@ public class RelationalOperatorTest {
 	@Test
 	public void isLessTest1() {
 		RelationalOperator tester = new RelationalOperator();
-		assertTrue(tester.isLess(4, 4));
+		assertTrue(tester.isLess(2, 4));
 	}
 	
 	@Test
