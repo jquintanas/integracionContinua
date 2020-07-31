@@ -22,6 +22,9 @@ public class RelationalOperator {
         return num1 < num2;
     }
 
+    public boolean notEqual(int num1, int num2) {
+    	return num1 != num2;
+    }
     
     public void goodWidth(final int object_width, final int min_width, final int max_width){
         if (isGreater(object_width, min_width) && isLess(object_width, max_width)) {

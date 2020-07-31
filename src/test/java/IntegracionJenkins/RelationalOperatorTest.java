@@ -29,4 +29,16 @@ public class RelationalOperatorTest {
 		RelationalOperator tester = new RelationalOperator();
 		assertFalse(tester.isLess(5, 1));
 	}
+	
+	@Test
+	public void notEqualTest() {
+		RelationalOperator tester = new RelationalOperator();
+		assertTrue(tester.notEqual(5, 1));
+	}
+	
+	@Test
+	public void notEqualTest2() {
+		RelationalOperator tester = new RelationalOperator();
+		assertFalse(tester.notEqual(1, 1));
+	}
 }
