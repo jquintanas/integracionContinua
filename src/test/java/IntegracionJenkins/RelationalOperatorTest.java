@@ -45,7 +45,7 @@ public class RelationalOperatorTest {
 	@Test
 	public void isGoodHeigth1() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.goodHeight(7,5,15));
+		assertTrue(tester.goodHeight(7,5,15));
 	}
 
 	@Test
@@ -57,24 +57,24 @@ public class RelationalOperatorTest {
 	@Test
 	public void isGoodHeigth3() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.goodHeight(12,5,14));
+		assertTrue(tester.goodHeight(12,5,14));
 	}
 
 	@Test
 	public void isGoodWidth1() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.goodHeight(10,2,10));
+		assertTrue(tester.goodWidth(10,2,10));
 	}
 
 	@Test
 	public void isGoodWidth2() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.goodHeight(10,2,2));
+		assertFalse(tester.goodWidth(10,2,2));
 	}
 
 	@Test
 	public void isGoodWidth3() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.goodHeight(10,1,2));
+		assertTrue(tester.goodWidtht(10,1,2));
 	}
 }
