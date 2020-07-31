@@ -41,40 +41,4 @@ public class RelationalOperatorTest {
 		RelationalOperator tester = new RelationalOperator();
 		assertFalse(tester.notEqual(1, 1));
 	}
-
-	@Test
-	public void isGoodHeigth1() {
-		RelationalOperator tester = new RelationalOperator();
-		assertTrue(tester.goodHeight(7,5,15));
-	}
-
-	@Test
-	public void isGoodHeigth2() {
-		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.goodHeight(7,5,5));
-	}
-
-	@Test
-	public void isGoodHeigth3() {
-		RelationalOperator tester = new RelationalOperator();
-		assertTrue(tester.goodHeight(12,5,14));
-	}
-
-	@Test
-	public void isGoodWidth1() {
-		RelationalOperator tester = new RelationalOperator();
-		assertTrue(tester.goodWidth(10,2,10));
-	}
-
-	@Test
-	public void isGoodWidth2() {
-		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.goodWidth(10,2,2));
-	}
-
-	@Test
-	public void isGoodWidth3() {
-		RelationalOperator tester = new RelationalOperator();
-		assertTrue(tester.goodWidtht(10,1,2));
-	}
 }
